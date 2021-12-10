@@ -6,6 +6,14 @@
 
 body{
     background-color: rgb(2, 73, 73);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
 }
 
 .container{
@@ -16,7 +24,7 @@ body{
 }
 
 .box{
-    width: 100px;
+    width: calc(100% / 7 - 30px);
     height: 100px;
     margin: 15px;
     background-color: rgb(20, 158, 182);

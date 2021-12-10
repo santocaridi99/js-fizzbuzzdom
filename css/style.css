@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: rgb(2, 73, 73);
+}
+
 .container{
     width: 1000px;
     margin: 0 auto;
@@ -15,5 +19,22 @@
     width: 100px;
     height: 100px;
     margin: 15px;
-    background-color: darkcyan;
+    background-color: rgb(20, 158, 182);
+    text-align: center;
+    line-height: 100px;
+}
+
+/* colore di Fizzbuzz */
+.fizzBuzz{
+    background-color: rgb(238, 53, 53);
+}
+
+/* colore di fizz */
+.fizz{
+    background-color:mediumaquamarine;
+}
+
+/* colore di buzz */
+.buzz{
+    background-color: goldenrod;
 }
